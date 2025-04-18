@@ -40,8 +40,8 @@ function chargerLesSprites(){
 	//font
 	loadFont("VCR","sprites/autres/VCR_OSD_MONO_1.001.ttf")
 	//sons
-	loadSound("sonGameOver","sounds/sonGameOver.wav")
-	loadSound("sonVictoire","sounds/sonVictoire.mp3")
+	//loadSound("sonGameOver","sounds/sonGameOver.wav")
+	//loadSound("sonVictoire","sounds/sonVictoire.mp3")
 	// autres
 	loadSprite("card back", "sprites/autres/card-back.png")
 	loadSprite("reset", "sprites/autres/arrow_reset.png")
