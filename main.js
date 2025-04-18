@@ -39,9 +39,6 @@ kaboom({
 function chargerLesSprites(){
 	//font
 	loadFont("VCR","sprites/autres/VCR_OSD_MONO_1.001.ttf")
-	//sons
-	//loadSound("sonGameOver","sounds/sonGameOver.wav")
-	//loadSound("sonVictoire","sounds/sonVictoire.mp3")
 	// autres
 	loadSprite("card back", "sprites/autres/card-back.png")
 	loadSprite("reset", "sprites/autres/arrow_reset.png")
@@ -757,7 +754,6 @@ console.log("curDraggin", curDraggin)
 
 
 function gameOver () {
-	//play("sonGameOver",{ volume : 0.1})
 	if (score>highscore){
 		highscore = score
 		setData("highscore", highscore)
@@ -839,7 +835,6 @@ if(valeurGameOver==true){
 }
 
   function timelinePleine() {
-	//play("sonVictoire",{ volume : 0.4})
 		for (i = 0; i < tabCartesDanslaTimeline.length; i++) {
 			if (i != 4) {
 				destroy(tabCartesDanslaTimeline[i])
